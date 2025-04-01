@@ -1,6 +1,6 @@
 brew install python@3.11
 I initially installed Python 3.13 (a development version not yet officially released), which caused frequent errors 
-when installing PcbDraw and its dependencies because many third-party libraries did not yet provide pre-built wheels for 3.13.
+when installing PcbDraw and its dependencies because many third-party libraries did not yet provide pre-built wheels for 3.13）
 brew install --cask kicad
 brew install pkg-config cairo pango gdk-pixbuf libffi harfbuzz fribidi librsvg
 cd ~/Desktop  
