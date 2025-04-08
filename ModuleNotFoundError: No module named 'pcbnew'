@@ -1,1 +1,10 @@
+This issue occurs on Apple computers because macOS requires all external programs to be signed. 
+While KiCAD installed via Homebrew is signed, installing plugins with binary dependencies invalidates the signature, 
+which prevents KiKit from running.
 
+The current solution is to re-sign KiCAD after installing KiKit. Therefore, installing KiKit on macOS involves two steps:
+1.Creating a self-signed certificate  
+2.Installing KiKit and re-signing KiCAD
+
+Method 1: Create a Code Signing Certificate  
+Open the Keychain Access application and select "Create a Certificate."
