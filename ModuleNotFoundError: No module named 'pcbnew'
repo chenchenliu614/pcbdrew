@@ -1,1 +1,6 @@
-
+When I follow the installation tutorial for pcbdraw to install the following modules:
+pip install svgpathtools
+pip install pcbdraw
+pcbdraw --help
+Received the following error message:
+ModuleNotFoundError: No module named 'pcbnew’
