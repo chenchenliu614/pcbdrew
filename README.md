@@ -80,8 +80,3 @@ If you run into any issues during usage or if the functionality does not meet yo
 - We plan to gradually refine and add more modules to support a wider range of PCB layouts and components.
 - In the future, we may further optimize automated 3D preview generation and integrate it with additional CI services.
 
----
-
-If you have any questions or suggestions, please do not hesitate to open an issue in the repository. We look forward to working together to make PcbDraw play an even greater role in hardware documentation and open-source projects!
-
----
